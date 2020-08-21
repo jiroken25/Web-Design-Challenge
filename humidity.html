@@ -1,0 +1,83 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Top Page Dashboard(Latitude)</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+ <a class="navbar-brand bg-info text-white" href="index.html"><strong>Latitude</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </a>
+			
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="temp.html">Max Temperature</a>
+			<div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="humidity.html">Humidity</a>
+			<div class="dropdown-divider"></div>
+		  <a class="dropdown-item" href="cloudness.html">Cloudness</a>
+			<div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+       </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="comparison.html">Comparison</a> 
+		 
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="data.html">Data</a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>
+	<main>
+	 <div class="margin-top">
+    <div class="bg-light contents">
+   <h1>Latitude vs Humidity</h1>
+		<hr>
+		<p class="main-article">
+			<img src="img/Fig2.png" class="main-fig" alt="Fig2-humidity" >No or little correlation was found between Latitude and Humidity.</p>
+    </div>
+    <div class="bg-light selector">
+	<h1>Visualization</h1>
+		<hr>
+		<figure><a href="temp.html"><img src="img/Fig1.png" alt="Fig1-temp">
+		<figcaption><h4>vs Temperature</h4></figcaption></a></figure>
+		<figure><a href="humidity.html"><img src="img/Fig2.png" alt="Fig2-humidity" class="selected">
+		<figcaption><h4>vs Humidity</h4></figcaption></a></figure>
+		<figure><a href="cloudness.html"><img src="img/Fig3.png" alt="Fig3-cloudness">
+		<figcaption><h4>vs Cloudness</h4></figcaption></a></figure>
+		<figure><a href="windspeed.html"><img src="img/Fig4.png" alt="Fig4-windspeed">
+		<figcaption><h4>vs WindSpeed</h4></figcaption></a></figure>
+
+    </div>
+
+		 </main>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
